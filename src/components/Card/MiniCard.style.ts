@@ -22,6 +22,10 @@ export const MiniCardContainer = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
+  @media (max-width: 400px) {
+    width: 100%;
+    max-width: 480px;
+  }
 `;
 export const MiniCardContents = styled.div`
   display: flex;

@@ -5,13 +5,16 @@ export const HomeCardsWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 96px 5rem;
+
   @media (max-width: 1200px) {
     display: flex;
     width: 100%;
   }
   @media (max-width: 768px) {
     flex-direction: column;
+  }
+  @media (max-width: 400px) {
+    width: 100%;
   }
 `;
 
@@ -41,7 +44,6 @@ export const MiniCardContainer = styled.div`
   display: flex;
   gap: 32px;
   margin-bottom: 1rem;
-  margin-bottom: 1rem;
   @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -50,5 +52,10 @@ export const MiniCardContainer = styled.div`
   @me @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    max-width: 480px;
+  }
+  @media (max-width: 400px) {
+    width: 100%;
+    max-width: 480px;
   }
 `;
