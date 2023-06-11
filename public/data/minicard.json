@@ -1,0 +1,22 @@
+{
+  "minicard": [
+    {
+      "id": 0,
+      "name": " Buy crypto",
+      "desc": "Buy crypto with your credit card or bank account at the best rates.",
+      "tag": "Buy now"
+    },
+    {
+      "id": 1,
+      "name": "Earn",
+      "desc": "Provide liquidity to pools on Uniswap and earn fees on swaps.",
+      "tag": "Provide liquidity"
+    },
+    {
+      "id": 2,
+      "name": "Build dApps",
+      "desc": "Build apps and tools on the largest DeFi protocol on Ethereum.",
+      "tag": "Developer docs"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "card": [
+    {
+      "id": 0,
+      "name": " Swap Tokens",
+      "desc": "Buy, sell, and explore tokens on Ethereum, Polygon, Optimism, and more.",
+      "thumbnail": "/images/swapcard.png",
+      "tag": "Trade Tokens"
+    },
+    {
+      "id": 1,
+      "name": " Trade NFTs",
+      "desc": "Buy and sell NFTs across marketplaces to find more listings at better prices.",
+      "thumbnail": "/images/nftCard.png",
+      "tag": "Explore NFTs"
+    }
+  ]
+}
