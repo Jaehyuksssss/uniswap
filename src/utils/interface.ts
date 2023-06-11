@@ -55,6 +55,10 @@ export interface INavMenuProps {
   data: NavItemsParams;
 }
 
+export interface tokensData {
+  tokens: tokensParams[];
+}
+
 export interface tokensParams {
   id: number;
   name: string;
@@ -62,10 +66,6 @@ export interface tokensParams {
   currency: string;
   thumbnail: string;
   tag: string;
-}
-
-export interface tokensData {
-  tokens: tokensParams[];
 }
 
 export interface tokenItemParams extends tokensParams {

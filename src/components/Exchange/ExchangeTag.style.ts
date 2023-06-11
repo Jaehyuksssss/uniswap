@@ -8,6 +8,7 @@ export const ExchangeContianer = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
 export const ExchangeWrapper = styled.div`
   display: flex;
   width: 100%;
@@ -19,6 +20,7 @@ export const ExchangeWrapper = styled.div`
   background: white;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 `;
+
 export const ExchangeHeader = styled.div`
   margin-bottom: 10px;
   height: 32px;
@@ -26,6 +28,7 @@ export const ExchangeHeader = styled.div`
   font-size: 18px;
   font-weight: 600;
 `;
+
 export const RateBoxWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -49,15 +52,7 @@ export const RateBox = styled.div`
   font-weight: 500;
   margin-bottom: 12px;
 `;
-export const CalculateBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-`;
-export const OutputBox = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
+
 export const ConnectWalletBtn = styled.button`
   background: rgba(251, 17, 142, 0.12);
   width: 100%;
@@ -71,6 +66,7 @@ export const ConnectWalletBtn = styled.button`
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
+
   &:hover {
     background: ${theme.LIGHT_PINK};
   }
