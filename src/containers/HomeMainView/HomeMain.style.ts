@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HomeWrapper = styled.div`
   height: calc(100vh - 60px);
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
