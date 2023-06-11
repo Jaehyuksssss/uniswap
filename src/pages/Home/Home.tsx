@@ -1,3 +1,10 @@
+import HomeMain from '../../containers/HomeMainView/HomeMain';
+import { HomeContainer } from './Home.style';
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <HomeContainer>
+      <HomeMain />
+    </HomeContainer>
+  );
 }

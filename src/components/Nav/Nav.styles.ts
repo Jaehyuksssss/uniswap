@@ -53,6 +53,14 @@ export const NavContainer = styled.div`
   width: 100%;
   height: 72px;
   z-index: 2;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const NavItemSpan = styled.span`
