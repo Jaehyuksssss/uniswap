@@ -54,6 +54,13 @@ export const CalculateBox = styled.div`
   flex-direction: column;
   gap: 5px;
 `;
+export const CalculateInput = styled.input`
+  font-size: 30px;
+`;
+export const CalculateOutput = styled.div`
+  font-size: 30px;
+  margin-bottom: 5px;
+`;
 export const OutputBox = styled.div`
   display: flex;
   flex-direction: column;

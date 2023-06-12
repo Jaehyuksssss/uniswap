@@ -11,6 +11,8 @@ import {
   CalculateBox,
   ConnectWalletBtn,
   OutputBox,
+  CalculateInput,
+  CalculateOutput,
 } from './Exchange.style';
 import ExchangeTag from './ExchangeTag';
 import SelectedTag from './SelectedTag';
@@ -23,18 +25,13 @@ const Exchange = () => {
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     const value = Number(e.target.value);
-    if (value >= 1 && value <= 100000000) {
+    if (value > 0 && value <= 100000000) {
       setInputValue(value);
     }
   };
 
   const calculatedAmount =
-    comparedModalTag.price && calculateTotal ? (comparedModalTag.price / exchangeState.price) * inputValue : inputValue;
-  const calculatedOutput =
-    comparedModalTag.price && calculateTotal
-      ? ((comparedModalTag.price / calculateTotal) * inputValue).toFixed(5)
-      : inputValue.toFixed(5);
-
+    comparedModalTag.price && calculateTotal ? calculateTotal / comparedModalTag.price : inputValue;
   return (
     <ExchangeContianer>
       <ExchangeWrapper>
@@ -42,7 +39,7 @@ const Exchange = () => {
         <RateBoxWrapper>
           <RateBox>
             <CalculateBox>
-              <input type="number" value={inputValue} onChange={handleInputChange} min="1" max="100000000" />
+              <CalculateInput type="number" value={inputValue} onChange={handleInputChange} min="" max="100000000" />
               {exchangeState.currency ? exchangeState.currency : '$'}
               {exchangeState.price !== undefined ? calculateTotal : 0}
             </CalculateBox>
@@ -50,12 +47,12 @@ const Exchange = () => {
           </RateBox>
           <RateBox>
             <OutputBox>
-              <div>
-                {calculatedAmount} {exchangeState.name}
-              </div>
+              <CalculateOutput>
+                {calculatedAmount} {comparedModalTag.name}
+              </CalculateOutput>
               <div>
                 {comparedModalTag.currency ? comparedModalTag.currency : '$'}
-                {comparedModalTag.price ? calculatedOutput : calculatedOutput}
+                {comparedModalTag.price ? calculateTotal : calculateTotal}
               </div>
             </OutputBox>
             <SelectedTag />

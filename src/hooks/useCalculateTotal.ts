@@ -2,7 +2,7 @@ import { useRecoilValue } from 'recoil';
 import { calculateState } from '../atom/SelectModal/ExchangeAtoms';
 import { useGetTokensData } from './useGetTokensData';
 
-export const useCalculateTotal = (inputValue: number): number => {
+export const useCalculateTotal = (inputValue: number) => {
   const exchangeState = useRecoilValue(calculateState);
   const tokensData = useGetTokensData();
 
