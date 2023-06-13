@@ -6,6 +6,18 @@ export default function SearchBarDropDown({ searchInputValue }: { searchInputVal
 
   const searched = tokensData.filter((item) => item.name.toLowerCase().includes(searchInputValue.toLowerCase()));
 
+  if (searched.length === 0) {
+    return (
+      <DropdownContainer>
+        <DropDownTitle>
+          <img src="../images/earn.png" alt="" />
+          <span>Search Result</span>
+        </DropDownTitle>
+        <div>No matching results found.</div>
+      </DropdownContainer>
+    );
+  }
+
   return (
     <DropdownContainer>
       <DropDownTitle>

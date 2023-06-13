@@ -56,12 +56,21 @@ export const NavContainer = styled.div`
   height: 72px;
   z-index: 2;
   align-items: flex-start;
-  @media (max-width: 768px) {
-    width: 100%;
+  @media (max-width: 1200px) {
+    display: flex;
+    width: 1200px;
   }
-
-  @media (max-width: 576px) {
-    width: 100%;
+  @media (max-width: 900px) {
+    display: flex;
+    width: 900px;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    width: 768px;
+  }
+  @media (max-width: 508px) {
+    display: flex;
+    width: 508px;
   }
 `;
 

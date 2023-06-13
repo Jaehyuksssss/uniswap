@@ -27,7 +27,7 @@ export default function SelectedModal({ id, name, thumbnail, price, currency, ta
   return (
     <TagContainer onClick={handleClick}>
       <img src={thumbnail} alt="tag" />
-      {name}
+      {tag}
     </TagContainer>
   );
 }

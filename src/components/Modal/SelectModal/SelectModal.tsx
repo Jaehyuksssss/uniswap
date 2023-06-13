@@ -55,9 +55,6 @@ export const SelectModal: React.FC<selectModalProps> = ({ onClose }) => {
               );
             })}
           </TagWrapper>
-          <ModalCell>list1</ModalCell>
-          <ModalCell>list2</ModalCell>
-          <ModalCell>list3</ModalCell>
         </ModalContent>
       </ModalWrapper>
     </ModalOverlay>
