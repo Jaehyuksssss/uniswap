@@ -26,7 +26,6 @@ export const CardContainer = styled.div<{ thumbnail: string }>`
   
   @media (max-width: 900px) {
     display: flex;
-    width:400px;
   }
   @media (max-width: 768px) {
     width:100%

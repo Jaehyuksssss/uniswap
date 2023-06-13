@@ -1,5 +1,5 @@
-import { useRecoilValue } from 'recoil';
-import { calculateState } from '../atom/SelectModal/ExchangeAtoms';
+import { useRecoilState, useRecoilValue } from 'recoil';
+import { calculateState, comparedTag } from '../atom/SelectModal/ExchangeAtoms';
 import { useGetTokensData } from './useGetTokensData';
 
 export const useCalculateTotal = (inputValue: number) => {

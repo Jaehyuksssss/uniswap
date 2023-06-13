@@ -19,8 +19,9 @@ export const ExchangeWrapper = styled.div`
   background: white;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 `;
-export const ExchangeHeader = styled.div`
+export const ExchangeHeader = styled.span`
   margin-bottom: 10px;
+  margin-left: 10px;
   height: 32px;
   color: rgb(119, 128, 160);
   font-size: 18px;

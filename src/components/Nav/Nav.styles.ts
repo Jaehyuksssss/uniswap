@@ -30,7 +30,6 @@ export const NavIconWrapper = styled.div`
   flex-grow: 1;
   justify-content: flex-end;
   align-items: center;
-  padding: 8px;
   font-size: 14px;
 `;
 
@@ -48,12 +47,11 @@ export const NavItemWrapper = styled.div`
 export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px 12px;
   width: 100%;
   height: 72px;
   z-index: 2;
-
+  align-items: flex-start;
   @media (max-width: 768px) {
     width: 100%;
   }

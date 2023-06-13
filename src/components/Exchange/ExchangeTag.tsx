@@ -19,7 +19,7 @@ export default function ExchangeTag() {
     });
   };
 
-  const buttonText = exchangeState?.name || tokensData[0]?.name || '';
+  const buttonText = exchangeState?.tag || tokensData[0]?.tag || '';
   const buttonImg = exchangeState?.thumbnail || tokensData[0]?.thumbnail || '';
 
   return (

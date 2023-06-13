@@ -1,4 +1,4 @@
-import { SearchBoxWrapper, SearchIconWrapper, SearchInput } from './SearchBox.style';
+import { SearchBoxWrapper, SearchIconWrapper, SearchInput } from './SelectModalSearch.style';
 
 export default function SelectModalSearch() {
   return (

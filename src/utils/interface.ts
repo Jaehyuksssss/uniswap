@@ -75,3 +75,10 @@ export interface tokenItemParams extends tokensParams {
 export interface selectModalProps {
   onClose: () => void;
 }
+export interface DropDownCardProps {
+  item: tokenItemParams;
+  value: '';
+}
+export interface DropdownCardProps extends DropDownCardProps {
+  searched: string[];
+}

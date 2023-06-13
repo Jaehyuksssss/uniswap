@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Logo, NavContainer, NavIcon, NavIconWrapper, NavItemWrapper } from './Nav.styles';
 import NavItems from './NavItems';
-import SearchBox from '../SearchBox/SearchBox';
 import ConnectWalletBtn from '../Button/ConnectWalletBtn';
+import SearchBox from '../SearchBox/NavSearchBox/SearchBox';
 
 export default function Nav() {
   return (

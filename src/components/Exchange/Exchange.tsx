@@ -32,10 +32,11 @@ const Exchange = () => {
 
   const calculatedAmount =
     comparedModalTag.price && calculateTotal ? calculateTotal / comparedModalTag.price : inputValue;
+
   return (
     <ExchangeContianer>
       <ExchangeWrapper>
-        <ExchangeHeader>Header</ExchangeHeader>
+        <ExchangeHeader>Swap</ExchangeHeader>
         <RateBoxWrapper>
           <RateBox>
             <CalculateBox>
@@ -48,7 +49,7 @@ const Exchange = () => {
           <RateBox>
             <OutputBox>
               <CalculateOutput>
-                {calculatedAmount} {comparedModalTag.name}
+                {calculatedAmount} {comparedModalTag.tag}
               </CalculateOutput>
               <div>
                 {comparedModalTag.currency ? comparedModalTag.currency : '$'}
