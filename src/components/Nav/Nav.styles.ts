@@ -26,8 +26,8 @@ export const ConnectButton = styled.button`
   }
 `;
 export const NavIconWrapper = styled.div`
+  width: 500px;
   display: flex;
-  flex-grow: 1;
   justify-content: flex-end;
   align-items: center;
   font-size: 14px;
@@ -40,13 +40,14 @@ export const NavItemWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 490px;
-  margin-right: 100px;
   align-items: center;
+  width: 500px;
   &:hover {
     cursor: pointer;
   }
-
+  @media (max-width: 1670px) {
+    display: flex;
+  }
   @media (max-width: 768px) {
     display: flex;
     width: 470px;

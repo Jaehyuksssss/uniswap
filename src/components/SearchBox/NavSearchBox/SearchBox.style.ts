@@ -4,7 +4,7 @@ import theme from '../../../styles/theme';
 export const SearchWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 500px;
   position: relative;
   pointer: cursor;
   @media (max-width: 1200px) {
@@ -48,7 +48,6 @@ export const DropdownContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 4px;
   max-height: 200px;
 `;
 
@@ -76,6 +75,7 @@ export const SearchDropDownWrapper = styled.div`
   z-index: 999;
   width: 100%;
   border: 1px solid rgb(238, 238, 238);
+  border-radius: 0px 0px 20px 20px;
   height: 400px;
   background-color: white;
   padding: 15px 12px;

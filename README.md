@@ -1,5 +1,3 @@
-# e-commerce site 만들기
-
 > 구현 사항
 
       - Home(product list page)

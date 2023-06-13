@@ -13,7 +13,9 @@ export default function Nav() {
         </Link>
         <NavItems />
       </NavItemWrapper>
-      <SearchBox />
+      <div>
+        <SearchBox />
+      </div>
       <NavIconWrapper>
         <NavIcon alt="Logo" src="/images/eth.png" />
         <button>
