@@ -63,11 +63,11 @@
 const searched = tokensData.filter((item) => item.name.toLowerCase().includes(searchInputValue.toLowerCase()));
 ```
 
-<img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/learnmore.gif?raw=true"  width="642" height="200" alt="image">
+<img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/learnmore.gif?raw=true"  width="642" height="500" alt="image">
 
-<img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/search.gif?raw=true"  width="642" height="200" alt="image">
+<img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/search.gif?raw=true"  width="642" height="500" alt="image">
 
-<img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/%EB%B0%98%EC%9D%91%ED%98%95.gif?raw=true"  width="642" height="200" alt="image">
+<img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/%EB%B0%98%EC%9D%91%ED%98%95.gif?raw=true"  width="642" height="500" alt="image">
 
 ### SWAP(Exchange.tsx)
 
@@ -76,4 +76,4 @@ const searched = tokensData.filter((item) => item.name.toLowerCase().includes(se
 - 자주 사용되는 각 토큰이 몇 달러인지 계산할 수 있는 hooks를 만들어 사용
   (useCalculate.ts)
 
-  <img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/swap.gif?raw=true" width="642" height="400" alt="image">
+  <img src="https://github.com/Jaehyuksssss/my_boilerplate/blob/master/src/public/images/swap.gif?raw=true" width="642" height="500" alt="image">
