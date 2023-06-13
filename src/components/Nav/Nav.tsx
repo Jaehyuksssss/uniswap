@@ -16,7 +16,9 @@ export default function Nav() {
       <SearchBox />
       <NavIconWrapper>
         <NavIcon alt="Logo" src="/images/eth.png" />
-        <NavIcon alt="Logo" src="/images/angle.png" />
+        <button>
+          <NavIcon alt="Logo" src="/images/angle.png" />
+        </button>
         <ConnectWalletBtn />
       </NavIconWrapper>
     </NavContainer>

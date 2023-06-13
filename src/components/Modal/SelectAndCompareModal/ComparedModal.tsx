@@ -13,7 +13,6 @@ import ComparedTagList from './ComparedTagList';
 
 export const ComparedModal: React.FC<selectModalProps> = ({ onClose }) => {
   const tokensData = useGetTokensData();
-  console.log(tokensData);
   return (
     <ModalOverlay>
       <ModalWrapper>

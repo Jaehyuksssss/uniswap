@@ -3,10 +3,8 @@ import { DropDownTitle, DropdownContainer, DropdownTag, DropdownTagWrapper } fro
 
 export default function SearchBarDropDown({ searchInputValue }: { searchInputValue: string }) {
   const tokensData = useGetTokensData();
-  console.log(searchInputValue);
 
   const searched = tokensData.filter((item) => item.name.toLowerCase().includes(searchInputValue.toLowerCase()));
-  console.log(searched);
 
   return (
     <DropdownContainer>

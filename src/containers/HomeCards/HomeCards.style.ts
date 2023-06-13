@@ -5,7 +5,7 @@ export const HomeCardsWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(245, 246, 252) 30%, rgb(255, 255, 255) 100%);
   @media (max-width: 1200px) {
     display: flex;
     width: 100%;
@@ -22,6 +22,7 @@ export const CardContainer = styled.div`
   display: flex;
   gap: 32px;
   margin-bottom: 1rem;
+
   @media (max-width: 1200px) {
     display: flex;
     width: 100%;

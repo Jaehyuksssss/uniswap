@@ -31,14 +31,18 @@ export const NavIconWrapper = styled.div`
   justify-content: flex-end;
   align-items: center;
   font-size: 14px;
+  @media (max-width: 576px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const NavItemWrapper = styled.div`
-  flex-grow: 0.8;
+  flex-grow: 1;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+
   align-items: center;
-  gap: 1.2rem;
   &:hover {
     cursor: pointer;
   }

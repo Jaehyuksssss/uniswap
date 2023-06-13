@@ -1,9 +1,9 @@
 import { useRecoilState } from 'recoil';
 import { useGetTokensData } from '../../hooks/useGetTokensData';
 import { tokenItemParams, tokensParams } from '../../utils/interface';
-import { TagButton, TagContainer } from './ExchangeTag.style';
 import { calculateState, swapState } from '../../atom/SelectModal/ExchangeAtoms';
 import { selectModal } from '../../atom/SelectModal/SelectModalAtoms';
+import { TagButton, TagContainer } from './Exchange.style';
 
 export default function ExchangeTag() {
   const [selectModalState, setSelectModalState] = useRecoilState<Partial<tokenItemParams>>(selectModal);

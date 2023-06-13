@@ -51,10 +51,8 @@ const Exchange = () => {
               <CalculateOutput>
                 {calculatedAmount} {comparedModalTag.tag}
               </CalculateOutput>
-              <div>
-                {comparedModalTag.currency ? comparedModalTag.currency : '$'}
-                {comparedModalTag.price ? calculateTotal : calculateTotal}
-              </div>
+              {comparedModalTag.currency ? comparedModalTag.currency : '$'}
+              {comparedModalTag.price ? calculateTotal : calculateTotal}
             </OutputBox>
             <SelectedTag />
           </RateBox>

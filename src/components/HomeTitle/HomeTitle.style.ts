@@ -27,8 +27,17 @@ export const HomeTitleContainer = styled.div`
 `;
 
 export const MainTitle = styled.div`
-  background: white;
+  background: linear-gradient(
+    rgb(255, 248, 250) 0%,
+    rgb(255, 248, 250) 10%,
+    rgb(254, 246, 249) 20%,
+    20%,
+    rgb(255, 243, 247) 80%,
+    rgb(255, 242, 246) 90%,
+    rgb(255 241 246) 100%
+  );
   font-size: 64px;
+  over-flow: hidden;
   line-height: 72px;
   font-weight: 700;
   text-align: center;

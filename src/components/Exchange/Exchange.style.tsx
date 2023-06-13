@@ -2,11 +2,14 @@ import styled from 'styled-components';
 import { theme } from '../../styles';
 
 export const ExchangeContianer = styled.div`
-  width: 462px;
+  width: 500px;
   height: 324px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 350px;
+  }
 `;
 export const ExchangeWrapper = styled.div`
   display: flex;
@@ -38,7 +41,6 @@ export const RateBox = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 12px 8px 8px;
-  width: 446px;
   height: 96px;
   position: relative;
   background-color: rgb(245, 246, 252);
@@ -53,9 +55,9 @@ export const RateBox = styled.div`
 export const CalculateBox = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 5px;
 `;
 export const CalculateInput = styled.input`
+  width: 200px;
   font-size: 30px;
 `;
 export const CalculateOutput = styled.div`

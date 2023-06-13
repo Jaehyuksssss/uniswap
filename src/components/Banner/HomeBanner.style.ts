@@ -11,6 +11,11 @@ export const HomeBannerContainer = styled.div`
   background: url(/images/banner.png), linear-gradient(93.06deg, rgb(255, 0, 199) 2.66%, rgb(255, 159, 251) 98.99%);
   border-radius: 32px;
   padding: 24px 2.5rem 20px;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+  }
 `;
 
 export const HomeBannerTitle = styled.div`

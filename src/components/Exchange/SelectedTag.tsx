@@ -1,8 +1,8 @@
 import { useRecoilState } from 'recoil';
+import { swapSelectedState, comparedTag } from '../../atom/SelectModal/ExchangeAtoms';
 import { useGetTokensData } from '../../hooks/useGetTokensData';
 import { tokenItemParams } from '../../utils/interface';
-import { TagButton, TagContainer } from './ExchangeTag.style';
-import { comparedTag, swapSelectedState } from '../../atom/SelectModal/ExchangeAtoms';
+import { TagContainer, TagButton } from './Exchange.style';
 
 export default function SelectedTag() {
   const [selectModalState, setSelectModalState] = useRecoilState<Partial<tokenItemParams>>(swapSelectedState);
