@@ -25,7 +25,7 @@ const Exchange = () => {
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     const value = Number(e.target.value);
-    if (value > 0 && value <= 100000000) {
+    if (value >= 0 && value <= 100000000) {
       setInputValue(value);
     }
   };
@@ -40,7 +40,7 @@ const Exchange = () => {
         <RateBoxWrapper>
           <RateBox>
             <CalculateBox>
-              <CalculateInput type="number" value={inputValue} onChange={handleInputChange} min="" max="100000000" />
+              <CalculateInput type="number" value={inputValue.toString()} onChange={handleInputChange} />
               {exchangeState.currency ? exchangeState.currency : '$'}
               {exchangeState.price !== undefined ? calculateTotal : 0}
             </CalculateBox>

@@ -7,12 +7,7 @@ export const SearchWrapper = styled.div`
   width: 450px;
   position: relative;
   pointer: cursor;
-  @media screen and (max-width: 600px) {
-    max-width: 480px;
-    margin-top: 12px;
-  }
-
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     display: none;
   }
 `;

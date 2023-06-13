@@ -37,14 +37,24 @@ export const NavIconWrapper = styled.div`
 `;
 
 export const NavItemWrapper = styled.div`
-  flex-grow: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
+  width: 490px;
+  margin-right: 100px;
   align-items: center;
   &:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    width: 470px;
+    margin-right: 100px;
+  }
+  @media (max-width: 508px) {
+    display: flex;
+    width: 408px;
   }
 `;
 
@@ -58,19 +68,19 @@ export const NavContainer = styled.div`
   align-items: flex-start;
   @media (max-width: 1200px) {
     display: flex;
-    width: 1200px;
+    width: 1100px;
   }
   @media (max-width: 900px) {
     display: flex;
-    width: 900px;
+    width: 750px;
   }
   @media (max-width: 768px) {
     display: flex;
-    width: 768px;
+    width: 650px;
   }
   @media (max-width: 508px) {
     display: flex;
-    width: 508px;
+    width: 300px;
   }
 `;
 

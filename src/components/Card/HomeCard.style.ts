@@ -3,6 +3,7 @@ import { theme } from '../../styles';
 
 export const CardContainer = styled.div<{ thumbnail: string }>`
   display: flex;
+  margin-top:20px;
   width: 704px;
   height: 306px;
   border-radius: 24px;
