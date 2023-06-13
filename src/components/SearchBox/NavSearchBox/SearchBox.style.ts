@@ -37,8 +37,8 @@ export const SearchInput = styled.input`
 `;
 
 export const SearchIconWrapper = styled.img`
-  width: 16px;
-  height: 16px;
+  width: 23px;
+  height: 23px;
   margin-right: 4px;
 `;
 

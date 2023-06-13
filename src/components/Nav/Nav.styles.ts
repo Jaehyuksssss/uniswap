@@ -6,8 +6,8 @@ export const Logo = styled.img`
   height: 32px;
 `;
 export const NavIcon = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   margin: 2px;
   &:hover {
     cursor: pointer;
@@ -31,6 +31,7 @@ export const NavIconWrapper = styled.div`
   justify-content: flex-end;
   align-items: center;
   font-size: 14px;
+  gap: 0.5rem;
   @media (max-width: 576px) {
     justify-content: flex-start;
   }

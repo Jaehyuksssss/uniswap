@@ -40,7 +40,14 @@ const Exchange = () => {
         <RateBoxWrapper>
           <RateBox>
             <CalculateBox>
-              <CalculateInput type="number" value={inputValue.toString()} onChange={handleInputChange} />
+              <CalculateInput
+                type="text"
+                pattern="^[0-9]*[.,]?[0-9]*$"
+                placeholder="0"
+                value={inputValue.toString()}
+                onChange={handleInputChange}
+              />
+
               {exchangeState.currency ? exchangeState.currency : '$'}
               {exchangeState.price !== undefined ? calculateTotal : 0}
             </CalculateBox>
